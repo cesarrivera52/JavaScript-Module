@@ -1,0 +1,14 @@
+.big-title{
+    font-size: 10rem;
+    color: purple;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.margin50{
+    margin: 50px;
+}
+
+.coursive{
+    font-style: italic;
+}
