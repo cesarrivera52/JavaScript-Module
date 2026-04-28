@@ -1,4 +1,6 @@
-For all of the files uploades, you must update and charge the node modules such as ;
+For all of the files uploades, you must update and charge the node modules in terminal such as ;
+All of the things made were render in local in the localhost:3000
+download in VS the nodemon to have a better performance in real time of the changes..
 npm init -y
 npm i express
 npm i ejs
