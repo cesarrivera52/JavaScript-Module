@@ -1,1 +1,10 @@
+GET = Request resource (HTML website, text, Data Base)
+POST = Sending resource 
+PUT = Update method \ Replace source completely
+PATCH = Update up the resource
+DELETE 
+
+To kill a terminal use control+C
+
+
 
