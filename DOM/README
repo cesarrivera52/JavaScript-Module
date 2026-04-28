@@ -1,0 +1,185 @@
+DOM= Document Object Model
+
+
+<body onload="alert('Hello World!')">
+This is for a pop up window that will make appear a message
+
+DO THE SAME 
+|
+|
+v
+
+<script type="text/javascript">
+alert('Hello world!')
+</script>
+
+DO THE SAME 
+|
+|
+v
+
+
+<script src="index.js" charset="utf-8"> ;
+    
+</script>
+
+
+Js.file
+alert('hello!');
+
+
+SELECTING ELEMETS WITH JS
+
+document.getElementsByTagName('li');
+It get backs the arrays, SELECTS ALL OF THE ELEMENTS 
+
+
+document.getElementsByTagName('li')[2].style.color = 'purple';
+
+document.getElementsByTagName('li').length;
+
+document.getElementsByClassName('btn');
+Gives you an array
+
+
+document.getElementById("title").innerHTML = "Hello World!";
+
+document.querySelector('h1');
+<h1>​Hello​</h1>​
+
+
+https://www.w3schools.com/jsref/dom_obj_style.asp
+
+
+
+MANIPULTE CSS PROPERTY WITH JS
+
+﻿
+	• document.querySelector('h1').style.color='blue';
+	'blue'
+	• document.querySelector('h1').style.fontSize='10rem';
+	'10rem'
+	• document.querySelector('h1').style.padding='30%';
+	'30%'
+	
+	
+
+
+Html -> CONTENT ONLY
+CSS -> CSS
+Js -> behaviour
+
+MANIPULATION OF HTML WITH JS
+document.querySelector('h1').innerHTML="<em> Hola</em>";
+
+MANIPULATION OF HTML FOR ATRIBUTTES 
+document.querySelector('a');
+#<a href="http://www.google.com>Google</a>"
+
+MANIPULATION OF HTML FOR ATRIBUTTES 
+document.querySelector('a').attributes;
+NamedNodeMap {0: href, href: href, length: 1}
+
+
+MANIPULATION OF HTML FOR ATRIBUTTES 
+document.querySelector('a').getAttribute("href");
+'https://www.google.com'
+
+MANIPULATION OF HTML FOR ATRIBUTTES 
+document.querySelector('a').setAttribute("href", "https://www.bing.com");
+
+
+HIGHER ORDER FUNCTIONS AND PASSING FUNCTIONS AS ARGUMENTS
+
+$0.addEventListener(event happening, function);
+
+Example
+
+$0.addEventListener("click", respondToClick)
+
+function respondToClick() {
+	console.log("I got clicked");
+}
+
+FUNCTION INSIDE A FUNCTION
+function add(num1, num2) {
+	return num1 + num2;
+	}
+	
+function substract(num1, num2) {
+	return num1 - num2;
+	}
+
+
+function multiply(num1, num2) {
+	return num1 * num2;
+	}
+
+function divide(num1, num2) {
+	return num1 / num2;
+	}
+
+
+	
+function calculator (num1, num2, operator) {
+	return operator(num1, num2);
+	}
+
+
+ADD AUDIO JS
+
+var audio= new Audio('file.mp3');
+Audio.play();
+
+
+
+  this.style.color = "white";
+
+
+
+switch (expression) {
+    case expression:
+    break;
+    default;
+} 
+
+
+JS OBJECTS
+
+var houseKeeper1 = {
+    name: 'Rosa',
+    age: 40,
+    nationality: ['Mexican'],
+    nationalPermition: true,
+    firstJob: false,
+    laundryKnowledge: true,
+    yearsOfExperience: 10,
+    cleaningRepertoire: ['house','bathroom','roof']
+  };
+
+JS OBJECT FACTORY/Constructor Function
+
+
+function HouseKeeper(name, age, nationality, nationalPermition, firstJob, laundryKnowledge, yearsOfExperience, cleaningRepertoire) {
+this.name = name;
+this.age = age;
+this.nationality = nationality;
+this.nationalPermition = nationalPermition;
+this.firstJob = firstJob;
+this.laundryKnowledge = laundryKnowledge;
+this.yearsOfExperience = yearsOfExperience;
+this.cleaningRepertoire = cleaningRepertoire;
+this.cleanAction = function (){
+Alert("Cleaning….");
+pickupBrusher();
+Move();
+
+	}
+}
+
+
+HIGHER ORDER FUNCTION
+
+$0.addEventListener("click" , function(event){
+	Console.log(event);
+}};
