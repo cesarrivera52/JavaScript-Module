@@ -1,0 +1,4 @@
+For all of the files uploades, you must update and charge the node modules such as ;
+npm init -y
+npm i express
+npm i ejs
