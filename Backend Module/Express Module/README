@@ -1,1 +1,19 @@
 It is needed to install npm and express (we can install it with npm)
+
+Benefits
+
+	1. Readability
+	2. Less code
+	3. Middle Ware
+
+CREATING AN EXPRESS SERVER
+
+	1. Create a directory.
+	2. Create index.js
+	3. Initialise NPM
+	4. Install the express package
+	5. Write server Application in index.js
+	6. Start Server
+
+
+sudo lsof -i -P -n |grep LISTEN
