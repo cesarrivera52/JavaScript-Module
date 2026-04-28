@@ -1,0 +1,144 @@
+The JS Library that will PREVENT our fingers from breaking
+
+LIBRARIES
+
+document.querySelector("h1") = jQuey("h1") = $("h1")
+
+HOW TO INCORPORATE JQUERY IN WEBPAGE?
+
+jquery.com/download/
+
+CDN LINK FOR JQUERY
+https://developers.google.com/speed/libraries?hl=es-419
+
+Code to check up if jQuery is working
+
+$(document).ready(function() {
+$("h1").css("color", "red");
+});
+
+
+www.minifier.org
+
+
+TO MANIPULATE CSS WITH JQUERY
+
+
+$("h1").css("color", "green");
+
+
+
+$("h1").addClass("big-title");
+EXAMPLE WITH A PREDEFINED CLASS
+
+
+$("h1").addClass("big-title margin50 coursive");
+
+
+ADD TEXT
+
+
+
+$("h1").text("Hello, jQuery!");
+//HTML METHOD
+$("button").html("<em>DON'T Click me!</em>");
+
+
+MANIPULATING ATTRIBUTES
+
+console.log($('img').attr('src')); // Consulting attributes
+
+
+$('a').attr('href', "https://espanol.yahoo.com/") // Manipulating Attributes
+
+
+ADDING EVENT LISTENERS
+
+$("h1").click(function() {
+    $("h1").css("color", "purple");
+});
+
+TRADITIONAL WAY TO MANIPULATE BUTTONS (IN THIS EXAMPLE THE BUTTONS ARE GOING TO MAKE THE COLOR TO CHANGE)
+
+for (var i = 0; i<5; i++) {
+    document.querySelectorAll("button")[i].addEventListener("click", function() {
+        document.querySelector("h1").style.color = "purple";
+    });
+    }
+
+JQUERY METHOD WITH BUTTONS
+
+
+$("button").click(function() {
+    $("h1").css("color", "purple");
+});
+
+// IN THE EXAMPLE ABOVE IT WAS SETTED AN INPUT WHEN THE UX TYPES IN THE INPUT THE TITLE GETS MODIFIED
+$('input').keypress(function (event) {
+    $('h1').text(event.key);   
+});
+
+
+// method for adding functions
+$("h1").on("click", function() {
+    $("h1").css("color", "red");
+});
+
+
+
+JQUERY ADDING ELEMENTS 
+
+$("h1").before("<h2>jQuery</h2>");
+
+$("h1").after("<h2>jQuery</h2>");
+
+
+$("h1").prepend("<h2>jQuery</h2>"); // it is added inside the element selected after the $, it will be displayed before the element selected (part of the Content of the element selected)
+
+$("h1").append("<h2>jQuery</h2>");// it is added inside the element selected after the $, it will be displayed at the last part of the closing element selected (Part of the Content of the element selected)
+
+JQUERY REMOVE ELEMENTS 
+
+$("button").remove();
+
+WEBSITE ANIMATIONS WITH JQUERY
+
+$("button").on("click", function() {
+    $("h1").hide();
+});
+
+// Makes the event goes front way and backway
+$("button").on("click", function() {
+    $("h1").toggle();
+});
+
+//FADE
+
+$("button").on("click", function() {
+    $("h1").fadeOut();
+    //$("h1").fadeIn();
+});
+
+$("button").on("click", function() {
+    $("h1").fadeToggle();
+});
+
+// Slide
+
+$("button").on("click", function() {
+    $("h1").slideUp().slideDown();
+});
+
+
+$("button").on("click", function() {
+    $("h1").slideToggle();
+});
+
+// Animate only for numeric values
+
+$("button").on("click", function() {
+    $("h1").animate({opacity: 0.5});
+});
+
+
+
