@@ -1,0 +1,82 @@
+Random Number Generation
+
+Var n= Math.random();
+
+Output=0-0.999999999999999
+
+N= n*6 +;   - Numbers between 0-6 (float)
+
+N = Math.floor(n*6)+1; --- Print Integer Values 
+
+
+CONDITIONALS
+
+IF to evaluate one way, else must be used for the next ways.
+
+Example.
+
+If (track  ===  'clear'){
+	goStraight();
+	} Else {               -----------------> This is used for only 2 ways
+	turnRight ();
+	}
+	
+If there are more outputs use else if 
+Ex.
+if (randomNum >= 95 && randomNum < 100) {
+    alert(nom1 + ' and ' + nom2 + ' have a love score of ' + randomNum + '% of compatibility, that is true love');
+} else if (randomNum >= 70 && randomNum < 95) {
+    alert(nom1 + ' and ' + nom2 + ' have a love score of ' + randomNum + '% of compatibility, that is good love, you can still work in it');
+} else if (randomNum >= 50 && randomNum < 70) {
+    alert(nom1 + ' and ' + nom2 + ' have a love score of ' + randomNum + '% of compatibility, that is okay love');
+} else {
+    alert(nom1 + ' and ' + nom2 + ' have a love score of ' + randomNum + '% of compatibility, there is no love');
+}
+
+
+Comparators and Equality
+
+Syntaxis	Used for
+===	Is Equal to
+!==	Is not equal to
+>	Is greater than
+>=	Is equal or greater than
+<	Is lesser than
+<=	Is equal or lesser than
+==	To check datatype
+&&	And
+||	Or
+!	not
+
+Typeof() ----------> syntaxis to check type of data
+
+
+
+Arrays
+
+Var array = ['uno', 'dos', 'tres']
+
+Array.length  ------> It gives you the ammount of items in the array
+
+Array.includes('specific_item') ------------> to track if the item matches the array
+
+Var output = [];
+Output.push(); -------------> to add an element to the last part of the array
+Outpush.pop(); ----------> to eliminate an element of the last place of the array
+
+
+WHILE
+
+While (something is true) {
+Console.log(i);
+i++;
+}
+
+FOR LOOPS
+For (var i=0;        i<2;      i++) {
+//Do something
+}
+
+
+When to use while when it is a state like true or false
+For is for iterations
