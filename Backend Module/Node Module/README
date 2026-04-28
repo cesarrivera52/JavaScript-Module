@@ -1,1 +1,18 @@
+Node REPL = Read Eval Print Loop
+
+Is an environment where user inputs are read and evaluated, and then the results are returned to the user.
+
+To start using Node
+ 1. Type in terminal  node
+
+.help is for getting comands
+
+.exit
+
+Control+ C to force exit
+
+How to run js file in terminal with node?
+
+Node file_name.js
+
 
