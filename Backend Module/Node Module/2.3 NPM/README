@@ -1,0 +1,33 @@
+Node REPL = Read Eval Print Loop
+
+Is an environment where user inputs are read and evaluated, and then the results are returned to the user.
+
+To start using Node
+ 1. Type in terminal  node
+
+.help is for getting comands
+
+.exit
+
+Control+ C to force exit
+
+How to run js file in terminal with node?
+
+Node file_name.js
+
+
+
+NATIVE MODULES
+Documentation
+https://nodejs.org/docs/latest-v18.x/api/index.html
+
+NPM = NODE PACKAGE MANAGER
+Open Source
+
+	1.  npm init
+	2. Fill sourvey
+	3. Npn install (library going to be used)
+
+To be able to use the method import asdads from asdas
+
+We need to set up as module in type in the json file
